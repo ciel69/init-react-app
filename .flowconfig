@@ -1,0 +1,26 @@
+[ignore]
+.*\/node_modules\/rc-util\/.*
+
+[include]
+./web/src/
+
+[libs]
+
+[lints]
+
+[options]
+esproposal.class_instance_fields=ignore
+esproposal.class_static_fields=ignore
+esproposal.decorators=ignore
+
+module.name_mapper='^src\/\(.*\)$' -> '<PROJECT_ROOT>/web/src/\1'
+
+module.file_ext=.js
+module.file_ext=.jsx
+module.file_ext=.json
+module.file_ext=.css
+module.file_ext=.scss
+
+module.system=haste
+
+[strict]
