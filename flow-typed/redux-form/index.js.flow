@@ -1,0 +1,5 @@
+declare module 'redux-form' {
+  declare export interface ReduxFormReducer {}
+
+  declare export var reducer: ReduxFormReducer;
+}
